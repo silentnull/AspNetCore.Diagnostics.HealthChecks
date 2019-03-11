@@ -7,5 +7,7 @@
         public int Port { get; set; }
 
         public bool RequireHttps { get; set; }
+
+        public bool CheckPeers { get; set; } = false;
     }
 }
